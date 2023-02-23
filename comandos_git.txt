@@ -7,4 +7,18 @@ gi status
 //adicionar arquivo à próxima versão
 git add nomedoarquivo.extensaosdoarquivo
 
+//adicionar todos arquivos alterados na próxima versão
+git add .
+
 //gera próxima versão
+git commit -m "Descrição das modificações"
+
+//adicionar nome de usuário
+git config --global user.name "nomedeusuario"
+
+//adicionar e-mail
+git config --global user.email "seuemail"
+
+*Obs.:Provavelmente no primeiro commit que fizer irá pedir para inserir usuário e email
+
+//lista todos os commits
