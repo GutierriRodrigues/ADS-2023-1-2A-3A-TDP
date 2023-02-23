@@ -22,3 +22,13 @@ git config --global user.email "seuemail"
 *Obs.:Provavelmente no primeiro commit que fizer irá pedir para inserir usuário e email
 
 //lista todos os commits
+git log
+
+//vincular com repositório remoto
+git remoto + endereço(esse comando o próprio github fornece)
+
+//subir para o repositório remoto
+git push -u origin main
+
+//verificar repositório remoto
+git pull
